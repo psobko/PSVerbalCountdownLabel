@@ -3,6 +3,9 @@ PSVerbalCountdownLabel
 
 A UILabel subclass which displays either a countdown to a specific date or a timer using words.
 
+<img align="center" src="https://github.com/psobko/PSVerbalCountdownLabel/blob/master/PSWordyCountingLabelDemo.png" alt="Demo Image" width="320">
+
+
 Properties
 ----------
 - **targetDate**: The date to countdown to, set to nil to create a timer instead.
