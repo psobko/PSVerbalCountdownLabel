@@ -14,7 +14,7 @@
 		55CF5ED61A093460005FD640 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CF5ED51A093460005FD640 /* Images.xcassets */; };
 		55CF5ED91A093460005FD640 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CF5ED71A093460005FD640 /* LaunchScreen.xib */; };
 		55CF5EE51A093460005FD640 /* PSVerbalCountdownLabelExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF5EE41A093460005FD640 /* PSVerbalCountdownLabelExampleTests.m */; };
-		55CF5EF01A0934B3005FD640 /* PSVerbalCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF5EEF1A0934B3005FD640 /* PSVerbalCountdownLabel.m */; };
+		55F230781A78592E00C6B5BF /* PSVerbalCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F230771A78592E00C6B5BF /* PSVerbalCountdownLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		55CF5EDE1A093460005FD640 /* PSVerbalCountdownLabelExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSVerbalCountdownLabelExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CF5EE31A093460005FD640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CF5EE41A093460005FD640 /* PSVerbalCountdownLabelExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSVerbalCountdownLabelExampleTests.m; sourceTree = "<group>"; };
-		55CF5EEE1A0934B3005FD640 /* PSVerbalCountdownLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSVerbalCountdownLabel.h; sourceTree = "<group>"; };
-		55CF5EEF1A0934B3005FD640 /* PSVerbalCountdownLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSVerbalCountdownLabel.m; sourceTree = "<group>"; };
+		55F230761A78592E00C6B5BF /* PSVerbalCountdownLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSVerbalCountdownLabel.h; path = ../../PSVerbalCountdownLabel.h; sourceTree = "<group>"; };
+		55F230771A78592E00C6B5BF /* PSVerbalCountdownLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSVerbalCountdownLabel.m; path = ../../PSVerbalCountdownLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 				55CF5ECD1A093460005FD640 /* AppDelegate.m */,
 				55CF5ECF1A093460005FD640 /* ViewController.h */,
 				55CF5ED01A093460005FD640 /* ViewController.m */,
-				55CF5EEE1A0934B3005FD640 /* PSVerbalCountdownLabel.h */,
-				55CF5EEF1A0934B3005FD640 /* PSVerbalCountdownLabel.m */,
+				55F230761A78592E00C6B5BF /* PSVerbalCountdownLabel.h */,
+				55F230771A78592E00C6B5BF /* PSVerbalCountdownLabel.m */,
 				55CF5ED21A093460005FD640 /* Main.storyboard */,
 				55CF5ED51A093460005FD640 /* Images.xcassets */,
 				55CF5ED71A093460005FD640 /* LaunchScreen.xib */,
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CF5EF01A0934B3005FD640 /* PSVerbalCountdownLabel.m in Sources */,
+				55F230781A78592E00C6B5BF /* PSVerbalCountdownLabel.m in Sources */,
 				55CF5ED11A093460005FD640 /* ViewController.m in Sources */,
 				55CF5ECE1A093460005FD640 /* AppDelegate.m in Sources */,
 				55CF5ECB1A093460005FD640 /* main.m in Sources */,
@@ -420,6 +420,7 @@
 				55CF5EEA1A093460005FD640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55CF5EEB1A093460005FD640 /* Build configuration list for PBXNativeTarget "PSVerbalCountdownLabelExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				55CF5EED1A093460005FD640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
